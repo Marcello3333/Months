@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(milkyway.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        #div1{
+            background-color: rgb(27, 27, 56);
+            width: 500px;
+            height: 500px;
+            margin: auto;
+            border-radius: 50px;
+            margin-top: 100px;
+            text-align: center;
+            padding-top: 50px;
+        }
+        #input1{
+            background-color: transparent;
+            width: 70%;
+            height: 50px;
+            margin-bottom: 50px;
+            border: aliceblue solid 1px;
+            color: aliceblue;
+
+
+        }
+        #btn1{
+            width: 100px;
+            height: 50px;
+            border-radius: 30px;
+            background-color: rosybrown;
+            color: aliceblue;
+        }
+        #prev{
+            background-color: darkgray;
+        }
+        p{
+            background-color: darkgrey;  
+            margin-top: 50px;
+            padding: 0 10px;
+            font-family: cursive;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        
+
+        <input type="text" id="input1">
+
+        <div>
+            <button id="btn1" onclick="show()">Check</button>
+        </div>
+          
+
+        <p id="prev"></p>
+
+        <p id="prev2"></p>
+    </div>
+</body>
+</html>
+
+<script>
+
+    let input1 = document.getElementById('input1')
+    let btn = document.getElementById('btn1')
+    let pee = document.getElementById('prev')
+
+
+
+    let month1 = '1'
+        let month2 = '2' 
+        let month3 = '3'
+        let month4 = '4'
+        let month5 = '5'
+        let month6 = '6'
+        let month7 = '7'
+        let month8 = '8'
+        let month9 = '9'
+        let month10 = '10'
+        let month11 = '11'
+        let month12 = '12'
+
+
+    function show(params) {
+        
+        if (input1.value == month1) {
+         prev.innerText = 'There Are Thirty-One Days In The Month Of January'
+            prev2.innerText = 'January Marks The New Year. January is Also known to be the coldest month in the Northern Hemisphere and the warmest in the Southern Hemisphere.'
+            
+        }
+        else  {
+            prev.innerText = '' 
+        }
+           
+        if(input1.value == month2) {
+            prev.innerText = 'There Are Twenty-Eight Days In The Month Of February'
+            prev2.innerText = 'The Month With The Least Days Is February And It Has A Leap Day Causing The Year To Be A Leap Year, Some Say February Is The Charm'
+        }
+
+        // else  {
+        //     prev.innerText = '' 
+        // }
+
+        if(input1.value == month3) {
+            prev.innerText = 'There Are Thirty-One Days In The Month Of March'
+            prev2.innerText = 'Every year, March and June finish on the same day of the week. March is the time of year when animals start waking up from hibernation.'
+        }
+
+        if(input1.value == month4) {
+            prev.innerText = 'There Are Thirty Days In The Month Of April'
+            prev2.innerText = 'AKA April Fools Day. The month celebrates the birth of Queen Elizabeth II, Leonardo da Vinci, William Shakespeare and Thomas Jefferson.'
+        }
+
+
+        if(input1.value == month5) {
+            prev.innerText = 'There Are Thirty-One Days In The Month Of May'
+            prev2.innerText = 'Also Known As Self-Care Month, May is Skin Cancer Awareness Month, Zombie Awareness Month and National Military Awareness Month(May5 is Cinco De Mayo).'
+        }
+
+        if(input1.value == month6) {
+            prev.innerText = 'There Are Thirty Days In The Month Of June'
+            prev2.innerText = 'June is the month with the longest daylight hours of the year in the Northern Hemisphere, and conversely, June has the shortest daylight hours of the year in the Southern Hemisphere. June Borns are Good Lookimg Too Sikeeeeeeeeee'
+        }
+
+        if(input1.value == month7) {
+            prev.innerText = 'There Are Thirty-One Days In The Month Of July'
+            prev2.innerText = 'July Was Named After Roman Dictator, Julius Caesar Who Developed The Precusor Of The Gregorian Calendar Used Today. The 4th Of July Also Signifies The Independence Day Of America'
+        }
+
+        if(input1.value == month8) {
+            prev.innerText = 'There Are Thirty-One Days In The Month Of August'
+            prev2.innerText = 'Did you know that it is named after Augustus Caesar, the first emperor of the Roman Empire?'
+        }
+
+
+        if(input1.value == month9) {
+            prev.innerText = 'There Are Thirty Days In The Month Of September'
+            prev2.innerText = 'Out of all 12 months of the year, September is spelled with the most letters. ...'
+        }
+
+
+
+        if(input1.value == month10) {
+            prev.innerText = 'There Are Thirty-One Days In The Month Of October'
+            prev2.innerText = 'October Celebrates A Lot Of Holidays, October 28th, 1886 , Was The Day The Statue Of Liberty Was Dedicated. Did I Also Mention, October Borns Have An Attitude Problem!!!'
+        }
+
+
+        if(input1.value == month11) {
+            prev.innerText = 'There Are Thirty Days In The Month Of November'
+            prev2.innerText = 'November is a time to honor those who have served in the military and the families who made sacrifices. It is an opportunity to give respect to their commitment to protecting American freedoms. November Also Continues The Autumn Transition'
+        }
+
+
+        if(input1.value == month12) {
+            prev.innerText = 'There Are Thirty-One Days In The Month Of December'
+            prev2.innerText = 'Christmas Yayyyyyyyy, Everyone loves Christmas And i Know You Cant Deny The Feeling That Comes With The December Atmosphere!!! Did You Know That December Is National Pear Month'
+        }
+
+    
+        // else (input1.value !== month2) {
+        //     prev.innerText = '' 
+        // }
+    }
+</script>
